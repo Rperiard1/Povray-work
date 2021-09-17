@@ -1,0 +1,149 @@
+//Ronin periard
+//CSC 515 final project 
+
+#include "colors.inc"
+
+camera{
+    location <0,85,225>
+    look_at <0,0,0> 
+    //rotate <0,clock/2*360,0>
+}                  
+
+light_source{<100,100,-200> color White}
+
+background {color rgb 0}
+
+//Box
+box{
+    <-20,-10,-20><20,-8,20>
+    pigment{Red}
+    translate<0,-60*clock,0>
+}
+box{
+    <-20,20,-20><20,22,20>
+    pigment{Blue}
+    translate<0,60*clock,0>
+}
+box{
+    <-18,-10,-20><-20,22,20>
+    pigment{White}
+    translate<-60*clock,0,0>
+} 
+box{
+    <18,-10,-20><20,22,20>
+    pigment{White}
+    translate<60*clock,0,0>
+}
+box{
+    <-20,-10,20><20,20,22>
+    pigment{Green}
+    translate<0,0,60*clock>
+}
+box{
+    <-20,-10,-20><20,20,-22>
+    pigment{Green}
+    translate<0,0,-60*clock>
+}
+
+//100 spheres
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<36*clock,11*clock,44*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<25*clock,24*clock,41*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<4*clock,9*clock,32*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<24*clock,0*clock,16*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<42*clock,23*clock,17*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<14*clock,39*clock,7*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<9*clock,28*clock,16*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<3*clock,14*clock,38*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<4*clock,30*clock,41*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<41*clock,12*clock,8*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<30*clock,42*clock,31*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<12*clock,23*clock,32*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<1*clock,25*clock,9*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<47*clock,38*clock,27*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<23*clock,2*clock,21*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<21*clock,37*clock,4*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<7*clock,14*clock,21*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<11*clock,47*clock,37*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<45*clock,18*clock,19*clock>
+}
+sphere{
+    <0,0,0>,3
+    pigment{White}
+    translate<18*clock,42*clock,34*clock>
+}
+
